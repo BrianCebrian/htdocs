@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Profe">
+		<title></title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="index.css">
+		<style>
+		*{
+			scroll-behavior: smooth !important;
+		}
+		.anchor {
+			display: block;
+			position: relative;
+			top: -100px;
+			visibility: hidden;
+		}
+		.navbar {
+
+	/*overflow: hidden;*/
+
+  background-color: #333;
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+
+
+}
+
+.navbar a {
+
+  float: left;
+
+  display: block;
+
+  color: #f2f2f2;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+}
+
+
+
+.navbar a:hover {
+
+  background: #ddd;
+
+  color: black;
+
+}
+
+
+
+.navbar a.loponeverde {
+
+  background-color: #04AA6D;
+
+  color: white;
+
+}
+
+
+
+.navbar-derecha {
+
+  float: right;
+
+}
+
+.main {
+
+  padding: 16px;
+
+  margin-top: 30px;
+
+}
+
+.dropdown {
+
+  float: left;
+
+  /*overflow: hidden;*/
+
+}
+
+.dropdown .dropbtn {
+
+  font-size: 16px;  
+
+  border: none;
+
+  outline: none;
+
+  color: white;
+
+  padding: 14px 16px;
+
+  background-color: inherit;
+
+  font-family: inherit;
+
+  margin: 0;
+
+}
+
+.dropdown:hover .dropbtn {
+
+  background-color: red;
+
+}
+
+.dropdown-content {
+
+  display: none;
+
+  position: absolute;
+
+  background-color: #f9f9f9;
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+
+  float: none;
+
+  color: black;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+
+  background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+.center{
+	margin-top: 20px;
+	width:50%;
+	text-align:center;
+	border: 2px black solid;
+	min-width: min-content;
+}
+.buttons{
+	padding:20px;
+	overflow: hidden;
+}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="loponeverde" href="">Home</a>
+			<a href="contacto.html">Contact</a>
+			 <div class="dropdown">
+				<button class="dropbtn">Dropdown 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="#home">Home</a>
+				  <a href="#news">News</a>
+				  <a href="#other">Other</a>
+				</div>
+			  </div> 
+			<a href="ejercicio.html">Ejercicio</a>
+			<div class="navbar-derecha">
+				<a href="#search">Search</a>
+				<a href="#about">About</a>
+			</div>
+		</div>
+
+		<div class="main">
+			<div style="border:10px solid red; ">
+			  <h1>Fixed Top Menu<a id="home" class="anchor"></a></h1>
+			  <h2>Scroll this page to see the effect</h2>
+			  <div class="center buttons">
+			  <input type="reset" value="limpiar" style="width:20%; min-width: 200px; float:right">
+			  <input type="submit" value="sender" style="width:20%; min-width: 200px; float:left">
+			  </div>
+			  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			</div>
+			<div>
+				<h1 style="color:blue;">New<a id="news" class="anchor"></a></h1>
+				<h2>Scroll this page to see the effect</h2>
+				<h2>The navigation bar will stay at the top of the page while scrolling</h2>
+				<p>NEWS</p>
+				<p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+				  <p>Some text some text some text some text..</p>
+			</div>
+			<div>
+			  <h1 style="color:red;">Other<a id="other" class="anchor"></a></h1>
+			  <h2>Scroll this page to see the effect</h2>
+			  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			  <p>Some text some text some text some text..</p>
+			</div>
+		</div><!-- class="main" -->
+	</body>
+</html>

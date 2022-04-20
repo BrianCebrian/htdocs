@@ -1,0 +1,35 @@
+body{
+			background: radial-gradient(circle, #fdbb2d, #22c1c3); 
+			}
+			.main{
+				background-color: #f2f2f2;
+				margin: 5%;
+				padding:5px;
+				border-radius: 5px;
+			}
+			.center{
+				margin: auto;
+				width:30%;
+				padding:10px;
+				text-align:center;
+			}
+			label{
+				text-align:left;
+				display:block;
+			}
+			.input_text{
+				width:99%;
+			}
+			table {font-family: arial, sans-serif;border-collapse: collapse; width: 100%;}
+			td, th {border: 1px solid #dddddd;padding: 8px;}
+			td {text-align:center;}
+			th {text-align:left; background-color:grey;}
+			.green{color:white;background-color:red;}
+			.boton1{background-color:green}
+			.boton2{background-color:red}
+			
+			.asd{
+				margin-left:20px;
+			}
+			
+			

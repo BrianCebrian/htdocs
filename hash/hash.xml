@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<list_users>
+
+    <user>
+        <nameUser>aa</nameUser>
+        <email>f12c78f0dd444b9efebe631ff1764ae921bf7a47976c9757cc06f71fea00061e</email>
+        <password>7ace6bb84214ef0bfe06fa7a24375ec44d84f84e09c97422eb99242af2c9aa7c</password>
+    </user>
+    <user>
+        <nameUser>bb</nameUser>
+        <email>20928df2ae5a375b899b00f0a039ea3db5fdf9c6de09611bbbc9dc6d225e16cc</email>
+        <password>8cfcb1fb5003ee08450d34a50084e3bdac7b8393a91ef3c7efd3ae239461689c</password>
+    </user>
+    <user>
+        <nameUser>EEEEEEEEE</nameUser>
+        <email>0849c4db69b5712416cdeb42e94e62a4335f3eabb00f334bc5566458cc489409</email>
+        <password>d9a1c4c4f8dcc549c3417a00f67ba89989a4d34af0e4c2914e299a0707b0581a</password>
+    </user>
+    <user>
+        <nameUser>EEEEEEEEE</nameUser>
+        <email>a359b42ababde23f981b5d538ca20681cfc77c2f2d0ac18707caceaa104a32c3</email>
+        <password>c9da7c65ba917aa8375c501cc0b1f4070c554b1ec1fb13a6e61af6bb5f5e29f5</password>
+    </user>
+<user><nameUser>ss</nameUser><email>3ebde823d692779eabc7d73fe5defd8262fd2226e6ba1aec0899513e4f567597</email><password>ddae9af229836cd859a16d9c9281f7d907f87de7a1d4bf9cde638fee4d0d528b</password></user><user><nameUser>ss</nameUser><email>0f6094d79e0781a3471350eb46e21807f2ca494cd0efa3710bc1d698ed6f6a13</email><password>e14cae3257719c7148cc16b7fdd0adfdcd6d7e19a56933277bc1aa543a6c4c90</password></user></list_users>

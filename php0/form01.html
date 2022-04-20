@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ES">
+	<head>
+		<meta charset="utf-8" />
+		<title>Titulo</title>
+		<meta name="author" content="Brian Cebrian Lugones" />
+		<meta name="description" content="web" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			body {
+				background-color: rgb(211, 175, 175);
+			}
+			.center {
+				margin: auto;
+				margin-top: 20px;
+				width: 50%;
+				text-align: center;
+				border: 2px black solid;
+				min-width: min-content;
+			}
+			form input {
+				margin: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="includedContent">
+			<div class="main">
+				<form action="save01.php" method="get" target="_blank">
+					<fieldset>
+						<legend>PHP 0</legend>
+						<div class="center">
+							<label name="number" for="number">Numero1:</label>
+							<input
+								type="number"
+								name="number"
+								id="number"
+								placeholder="escribe un numero"
+								required
+							/>
+							<br />
+							<label name="xd" for="xd">Numero2:</label>
+							<input
+								type="number"
+								name="xd"
+								id="xd"
+								placeholder="escribe un numero"
+								required
+							/>
+						</div>
+						<div class="center">
+							<input type="submit" />
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

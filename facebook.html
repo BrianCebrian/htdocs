@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ES">
+	<head>
+		<meta charset="utf-8" />
+		<title>Titulo</title>
+		<meta name="author" content="Brian Cebrian Lugones" />
+		<meta name="description" content="web" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			div form input {
+				padding: 10px;
+				margin: 3px;
+			}
+			@media (max-width: 600px) {
+			}
+			input[type="number"]::-webkit-inner-spin-button {
+				opacity: 1;
+			}
+			input::placeholder {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="background-color: #2b4170; width: 100%; height: 140px">
+			<div>
+				<h1 style="margin-left: 70px; width: 33%; float: left; color: white">
+					Facebook
+				</h1>
+			</div>
+			<div style="width: 33%; float: right">
+				<form method="get" action="login.html">
+					<label name="mail">Correo</label>
+					<input name="mail" type="mail" placeholder="writte your mail" />
+
+					<br />
+					<label name="password">Contraseña</label>
+					<input
+						name="password"
+						type="password"
+						placeholder="writte your password"
+					/>
+					<input type="submit" value="Entrar" /> <br />
+					<input name="checkbox" type="checkbox" required />No cerrar sesion
+					<br />
+					<a href="www.facebook.com/olvidastes;" style="color: black"
+						>olvidastes tu contraseña
+					</a>
+				</form>
+			</div>
+		</div>
+		<div style="background-color: grey; width: 100%; height: 900px">
+			<div style="width: 40%; float: left">
+				<img
+					width="80%"
+					alt="imagenfacebook"
+					src="https://blog.socialgest.net/wp-content/uploads/2018/11/appmovil.png"
+				/>
+			</div>
+			<div style="width: 40%; float: right">
+				<form method="get">
+					<h3 style="text-align: center">Registro</h3>
+					<input name="nombre" placeholder="Nombre" type="text" />
+					<input name="apellidos" placeholder="Apellidos" type="text" /> <br />
+					<input
+						size="46"
+						name="correo/movil"
+						placeholder="Escribe tu correo o numero de movil"
+					/>
+					<input
+						size="46"
+						name="correo/movil1"
+						placeholder="vuelve escribir tu correo o numero de movil"
+					/>
+					<input size="46" name="contraseña" placeholder="contraseña nueva" />
+					<br />
+					<label name="fecha nacimiento">Fecha de nacimiento</label>
+					<br />
+					<input
+						style="padding: 0px; margin: 0px"
+						type="number"
+						min="1"
+						max="31"
+						placeholder="dia"
+						value=""
+						name="fecha"
+						padding="2%"
+					/>
+					<input
+						style="padding: 0px; margin: 0px"
+						type="number"
+						min="1"
+						max="12"
+						placeholder="mes"
+						value="fecha"
+						name="fecha"
+					/>
+					<input
+						style="padding: 0px; margin: 0px"
+						type="number"
+						min="0"
+						max="2022"
+						placeholder="año"
+						value="fecha"
+						name="fecha"
+					/>
+					<a href="aaaaa.com">Porque he de poner la fecha?</a> <br />
+					<input type="radio" name="genero" id="Mujer" value="mujer" />
+					<label>Mujer</label>
+					<input type="radio" name="genero" id="Hombre" value="hombre" />
+					<label>Hombre</label>
+					<br />
+					<p>
+						Al clicar en regristarse aceptas todos los terminos y condiciones
+					</p>
+					<input
+						style="background-color: green; color: white; border-radius: 20px"
+						type="submit"
+						name="registro"
+						value="registrarse"
+					/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

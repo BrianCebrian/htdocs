@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Brian" />
+  <meta name="description" content="" />
+  <title></title>
+  <style>
+    body { 
+      background-color: grey;
+     
+    }
+    .center {
+      margin: auto;
+      margin-top: 20px;
+      width: 50%;
+      text-align: center;
+      border: 2px black solid;
+      min-width: min-content;
+    }
+    form input {
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="includedContent"></div>
+  <div class="main">
+    <form action="hash.php" method="get" target="_blank">
+      <fieldset>
+        <legend>HASH</legend>
+        <div class="center">
+          <label>Name user:</label>
+          <input type="text" name="nameUser" id="nameUser" placeholder="name user" />
+        </div>
+        <div class="center">
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="email" />
+        </div>
+        <div class="center">
+          <label>Password:</label>
+          <input type="password" name="password" />
+        </div>
+        <div class="center">
+          <label>Guardar</label>
+          <input type="radio" name="saveornot" value="true" onclick="document.getElementById('nameUser').disabled=false;" />
+          <label>Login</label>
+          <input type="radio" name="saveornot" value="false" onclick="document.getElementById('nameUser').disabled=true;" />
+        </div>
+        <div class="center">
+          <input type="submit" />
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
